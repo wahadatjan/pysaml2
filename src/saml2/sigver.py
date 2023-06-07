@@ -810,7 +810,6 @@ class CryptoBackendXmlSec1(CryptoBackend):
             "x509",
             "--enabled-reference-uris",
             "empty,same-doc",
-            "--enabled-key-data",
             "raw-x509-cert",
             f"--pubkey-cert-{cert_type}",
             cert_file,
